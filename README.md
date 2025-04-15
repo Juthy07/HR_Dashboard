@@ -1,56 +1,39 @@
-# HR Dashboard
+# HR Dashboard (Power BI & Excel)
 
-The HR Dashboard is an interactive and modern dashboard designed to help HR professionals monitor key metrics, track employee performance, and manage human resources data with ease. The project serves as a robust starting point for building data-driven HR solutions, providing insightful visualizations and an intuitive user interface.
+This HR Dashboard is created entirely using Power BI and Excel. It was designed to empower HR professionals with interactive insights into key metrics such as headcount, turnover, employee satisfaction, and more—all without writing a single line of code! Whether you're analyzing historical trends or tracking real-time performance data, this project is built to help you make informed decisions using familiar tools.
 
 ## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
-- [Technologies](#technologies)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Project Structure](#project-structure)
-- [Troubleshooting](#troubleshooting)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+- [Technologies Used](#technologies-used)
+- [Installation & Setup](#installation--setup)
 
 ## Overview
 
-The HR Dashboard is built to empower human resource departments with fast access to actionable data. The dashboard focuses on major HR metrics such as headcount, turnover rate, employee satisfaction, departmental insights, and more. It is designed to be both scalable and flexible to help you extract meaningful insights and support strategic decision-making.
+The HR Dashboard is designed to provide a comprehensive view of HR metrics through interactive charts and reports in Power BI. All the data is stored and processed using Excel, making it simple to update and customize. This project is ideal for HR teams that prefer a low-code or no-code solution while still gaining the benefits of powerful business intelligence tools.
 
 ## Features
 
-- **Interactive Visualizations:** Presents HR metrics in a visually appealing and easy-to-understand format.
-- **Data Filtering:** Enables users to drill down by departments, roles, or time periods.
-- **Responsive Design:** Optimized for both desktop and mobile use.
-- **Customizable Widgets:** Modify charts and data tables based on the specific needs of your HR team.
-- **Real-Time Data Integration:** (Optional) Supports integration with live data sources for up-to-date analysis.
+- **Interactive Reports:** Built in Power BI, the dashboard offers interactive visualizations that allow users to filter and drill down into the data.
+- **Excel-Based Data Storage:** The primary data source is an Excel workbook, making data updates quick and easy.
+- **Comprehensive HR Metrics:** Includes metrics such as total headcount, turnover rate, employee satisfaction scores, departmental breakdowns, and more.
+- **Responsive Design:** Optimized for viewing on various devices, ensuring insights are accessible on desktop and mobile.
+- **User-Friendly:** Designed with non-technical users in mind—if you can edit an Excel file and click a button, you can update the dashboard.
 
-## Technologies
+## Technologies Used
 
-- **Frontend:**  
-  - HTML, CSS, JavaScript  
-  - Data visualization libraries (e.g., Chart.js, D3.js, or any other you have used)
-- **Backend:**  
-  - Python, Node.js, or any API framework (specify if applicable)
-- **Data Storage:**  
-  - SQL / NoSQL database (if applicable) for storing employee and HR data
-- **Deployment:**  
-  - Docker / Cloud Platforms (if available)
+- **Power BI:** The primary tool used for designing and publishing interactive reports and dashboards.
+- **Excel:** Used for data storage, cleaning, and preparation, serving as the input source for Power BI.
+- **Power Query & DAX:** Utilized within Power BI to transform data and calculate key metrics.
 
-*Feel free to adjust the technologies section according to your tech stack!*
-
-## Installation
+## Installation & Setup
 
 ### Prerequisites
 
-- **Git:** To clone the repository. You can download it from [here](https://git-scm.com/downloads).
-- **Node.js & npm:** If the dashboard relies on Node-based build tools. Download [Node.js here](https://nodejs.org/).
-- **Python:** (if applicable) For backend scripts or API.
-- **Database:** Make sure your database server is installed and running if your project depends on one.
+- **Microsoft Excel:** Ensure you have access to Excel (2016 or later recommended) for viewing and updating the data source.
+- **Power BI Desktop:** Download and install [Power BI Desktop](https://powerbi.microsoft.com/desktop/) to open and edit the dashboard.
+- **Power BI Service (Optional):** Publish your reports online for sharing and collaboration.
 
 ### Steps
 
